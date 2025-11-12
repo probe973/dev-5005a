@@ -35,8 +35,8 @@ The `table` command can be used with the following syntax:
 * Use the `summarize` or `sum` command to get summary statistics for **height**, **weight**, **TV hours**, and **IQ**
 * To the beginning of your `sum` command add `by YearGroup, sort:`
 
-`by YearGroup, sort:` List_of_Variables
-
+`by YearGroup, sort: sum` List_of_Variables
+ 
 </div>
 
 <div class="instructions" markdown="1">
