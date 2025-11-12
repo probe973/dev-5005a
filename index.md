@@ -10,7 +10,7 @@ In this helpdesk you can ask questions about the use of Stata in your course or 
 <div class="instructions" markdown="1">
   
 1. Open Stata
-2. Download <a href={{ "/exploreschool.dta" | relative_url }}here</a> the datafile
+2. Download <a href="exploreschool.dta">here</a> the datafile
 3. Open this file in stata
 
 The data contains some information recorded by a school several years ago.
