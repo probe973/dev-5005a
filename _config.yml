@@ -1,0 +1,40 @@
+# _config.yml
+
+# Site Settings
+title:            DEV Stata Helpdesk
+description:      Some practice questions for DEV-5005A
+author:           UEA # <<< ENSURE THIS IS UPDATED WITH YOUR NAME/ORG
+
+baseurl:          "/dev-5005a" # <<< THIS MUST BE EXACTLY THIS
+
+url:              "https://probe973.github.io/dev-5005a" # <<< Left blank as per your preference.
+
+# Jekyll Build Settings
+markdown:         kramdown
+highlighter:      rouge
+plugins:
+  # No SEO plugins needed.
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
