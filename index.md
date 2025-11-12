@@ -40,6 +40,7 @@ The `table` command can be used with the following syntax:
 </div>
 
 <div class="instructions" markdown="1">
+  
   ### Scatter diagrams
 
   10. Create a scatter diagram of TV hours against IQ for the year 10 group using:
@@ -55,6 +56,7 @@ The `table` command can be used with the following syntax:
 </div>
 
 <div class="instructions" markdown="1">
+  
   ### Histogram
 
   16. Create a **histogram** to the show the distribution of IQ scores.  Use the command `histogram IQ`
@@ -65,7 +67,8 @@ The `table` command can be used with the following syntax:
 </div>
 
 <div class="instructions" markdown="1">
-### T-test
+
+  ### T-test
 
 20. Carry out a t-test to determine whether there is any significant difference between the heights of the two year groups.
 
@@ -74,5 +77,6 @@ The `table` command can be used with the following syntax:
 <div class="explanation" markdown="1">
 
 The t-test syntax is:
+
 `ttest `Test_Variable, `by (` Group_Variable `)`
 </div>
